@@ -1,16 +1,109 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+  font-family: 'Ceviche One', cursive;
 }
 
-a {
-  color: inherit;
+.home{
+  height: 100vh;
+  background-color: rgb(218, 215, 168);
+  text-align: center;
+}
+
+.text{
+  font-size: 100px;
+  color: rgba(32, 26, 28, 0.534);
+  padding-top: 100px;
+}
+
+.btn a {
+  color: rgba(32, 26, 28, 0.534);
   text-decoration: none;
+  font-size: 30px;
 }
 
-* {
-  box-sizing: border-box;
+.btn:hover a{
+  color: rgba(32, 26, 28, 0.534);
+}
+
+.header{
+  background-color: rgb(218, 215, 168);
+}
+
+.header .link{
+  padding: 15px;
+  color: rgba(32, 26, 28, 0.534);
+}
+
+.homeimg{
+  padding-left: 50px;
+  width: 330px;
+}
+
+p{
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.row img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mus .col-lg-4{
+  margin-bottom: 50px;
+}
+
+.mus a{
+  text-decoration: none;
+  color: rgba(32, 26, 28, 0.534);
+  font-weight: bold;
+}
+
+.name{
+  font-family: 'Ceviche One', cursive;
+  color: rgba(32, 26, 28, 0.842);
+}
+
+.skach{
+  text-decoration: none;
+  color: rgba(32, 26, 28, 0.534);
+}
+
+.letter{
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  color: rgba(32, 26, 28, 0.842) !important;
+}
+
+button{
+  background-color: rgb(218, 215, 168);
+  padding: 10px 20px;
+  border: rgba(32, 26, 28, 0.534) solid 2px;
+  border-radius: 20px !important;
+  font-size: 25px !important;
+  color: rgba(32, 26, 28, 0.534);
+}
+
+.pass input{
+  background-color: rgb(218, 215, 168);
+  padding: 10px 20px;
+  border: rgba(32, 26, 28, 0.534) solid 2px;
+  border-radius: 20px !important;
+  font-size: 25px !important; 
+  margin-right: 10px;
+}
+
+.parol{
+  color: rgba(32, 26, 28, 0.534) !important;
 }
