@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './header'
+import Image from 'next/image'
 
 const Home = () => {
     return (
