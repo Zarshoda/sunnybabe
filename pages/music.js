@@ -23,7 +23,7 @@ const Music = () => {
                         <a href="/endiKech.mp3" download="" className="skach">Скачать</a>
                     </div>
                     <div className="col-lg-6">
-                        <p className="m-0 mt-3 name">G'aribingman</p>
+                        <p className="m-0 mt-3 name">Garibingman</p>
                         <audio src='/garibingman.mp3' controls></audio>
                         <a href="/garibingman.mp3" download="" className="skach">Скачать</a>
                     </div>
