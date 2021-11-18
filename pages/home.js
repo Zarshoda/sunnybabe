@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <Header></Header> <br /> <br />
             <div className="d-flex align-items-center">
-                <Image src="/img.jpg" width='350' height='450' className="homeimg" />
+                <Image src="/img.jpg" width='350' height='450' className="homeimg" alt='di' />
                 <p>Человек с доброй душой, <br /> с горящими глазами, <br /> с открытым сердцем и <br /> с безграничной любовью...</p>
             </div>
         </div>
