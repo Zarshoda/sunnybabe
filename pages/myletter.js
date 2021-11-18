@@ -3,7 +3,7 @@ import React from 'react'
 
 const Myletter = () => {
     return (
-        <div className='p-3'>
+        <div className='p-3 pt-5'>
             <button className='m-3'>
                 <Link href="/letter" className='parol'>Back to letter</Link>
             </button>

@@ -29,6 +29,9 @@
 
 .header{
   background-color: rgb(218, 215, 168);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .header .link{
@@ -106,4 +109,20 @@ button{
 
 .parol{
   color: rgba(32, 26, 28, 0.534) !important;
+}
+
+.blok{
+  border: rgba(32, 26, 28, 0.534) solid 3px;
+  background-color: rgb(218, 215, 168);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.blok p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgba(32, 26, 28, 0.842);
 }

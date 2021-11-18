@@ -5,7 +5,7 @@ const Music = () => {
     return (
         <div>
             <Header></Header>
-            <div className='container pb-5'>
+            <div className='container pb-5 pt-5'>
                 <div className="row">
                     <div className="col-lg-6">
                         <p className="m-0 mt-3 name">Balli</p>

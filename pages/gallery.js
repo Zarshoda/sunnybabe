@@ -6,7 +6,7 @@ const Gallery = () => {
     return (
         <div>
             <Header></Header>
-            <div className='container'>
+            <div className='container pt-5'>
                 <div className="row pt-4">
                     <div className="col-lg-4 col-md-6 col-12 mb-3">
                         <Image src='/img1.jpg' width='360' height='450' alt="di" />

@@ -6,7 +6,7 @@ const Letter = () => {
     return (
         <div>
             <Header></Header>
-            <div className="container mb-5">
+            <div className="container mb-5 pt-5">
                 <h1 className="letter text-center mt-5">Для светлого человека</h1>
                 <p className="letter">
                     В первую очередь, хочу сказать одно, вы прекрасный человек!
